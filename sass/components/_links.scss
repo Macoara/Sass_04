@@ -1,0 +1,27 @@
+.forgot-password,
+.register-link {
+  color: $color-link;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.remember-forgot {
+  @include flex-center;
+  justify-content: space-between;
+
+  .forgot-password {
+    margin-left: auto;
+    padding-top: 10px;
+  }
+
+  label {
+    margin-right: 10px;
+  }
+}
+
+.register {
+  @include flex-center;
+}
