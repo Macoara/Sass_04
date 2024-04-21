@@ -1,0 +1,16 @@
+@import 'abstracts/variables';  // Importa todas las variables sin necesidad de un espacio de nombres
+@import 'abstracts/mixins';     // Importa todos los mixins sin necesidad de un espacio de nombres
+
+
+@import 'base/base';
+@import 'base/typography';
+
+
+@import 'layout/header';
+@import 'layout/main';
+
+
+@import 'components/buttons';
+@import 'components/input-groups';
+@import 'components/links';
+
