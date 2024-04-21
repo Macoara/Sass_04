@@ -1,0 +1,113 @@
+body {
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: #fff;
+  padding: 10px 20px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+header img {
+  width: 50px;
+  height: auto;
+  padding: 10px;
+}
+
+main {
+  max-width: 400px;
+  margin-top: 20px;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #45a049;
+}
+
+.btn-google {
+  background-color: #fff;
+  color: black;
+  text-align: center;
+}
+.btn-google:hover {
+  background-color: #fff;
+}
+
+.google-logo {
+  width: 20px;
+  vertical-align: middle;
+  margin-right: 8px;
+  background-color: #fff;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  margin-right: 20px;
+}
+
+input[type=text],
+input[type=password],
+input[type=email] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.forgot-password,
+.register-link {
+  color: #3498db;
+  text-decoration: none;
+}
+.forgot-password:hover,
+.register-link:hover {
+  text-decoration: underline;
+}
+
+.remember-forgot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+.remember-forgot .forgot-password {
+  margin-left: auto;
+  padding-top: 10px;
+}
+.remember-forgot label {
+  margin-right: 10px;
+}
+
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=main.css.map */

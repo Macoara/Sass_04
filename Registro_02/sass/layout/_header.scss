@@ -4,10 +4,10 @@ header {
     width: 100%;
     text-align: center;
     @include flex-start;
-  }
+}
   
-  header img {
-    width: 50px;
+header img {
+    width: 20px;
     height: auto;
     padding: 10px;
-  }
+}
