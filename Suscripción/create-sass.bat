@@ -26,6 +26,7 @@ cd..
 
 cd abstracts
 echo /* Functions, mixins, variables here */ > _mixins.scss
+echo /* Variables here */ > _variables.scss
 cd..
 
 cd vendors
