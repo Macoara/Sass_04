@@ -3,7 +3,9 @@
 @import 'base/base'; 
 @import 'base/typography'; 
 @import 'components/buttons'; 
-@import 'components/input-proups'; 
+@import 'components/input-group'; 
 @import 'components/links'; 
-@import 'layaut/header'; 
-@import 'layaut/main'; 
+@import 'layout/header'; 
+@import 'layout/main'; 
+@import 'layout/footer';
+@import 'vendors/bootstrap';

@@ -3,24 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Login Sass</title>
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-    <header>
-        <img src="assets/img/logos/adl.png" alt="Logo">
-        <h1>Blog FrontEnd</h1>
-    </header>
     <main>
-        <div class="card">
-            <div class="card-body">
-              <h2 class="card-title">Mantente actualizado sore el desarrollo FrontEnd</h2>
+          <div class="card">
+            <div class="card__text--item">
+              <h2 class="card__title">Mantente actualizado sore el desarrollo FrontEnd</h2>
               <div class="input-group">
-                <input type="text" class="form-control" placeholder="Recipient's username" aria-label="correo electrónico" aria-describedby="button-addon2">
-                <button class="btn btn-outline-secundary" type="button" id="button-addon2">Suscribirse</button>
+                <input type="text" class="form-control" placeholder="Correo electrónico" >
+                <button class="btn" type="button" id="button-addon2">Suscribirse</button>
               </div>
             </div>
           </div>
     </main>
+    <footer class="pie__logo--img">
+      <img src="assets/img/logos/adl.png" class="imagen__logo--blog">
+      <h3 class="Pie__blog--text">Blog FrontEnd  </h3>
+      <h5 class="pie__blog--latam">Desafio Latam - 2023</h5>
+    </footer>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </html>

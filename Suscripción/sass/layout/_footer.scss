@@ -1,0 +1,21 @@
+footer {
+    padding: 10px 20px;
+    text-align: center;
+    @include flex-start;
+}
+.imagen__logo--blog {
+    width: 50px;
+    height: auto;
+    border-radius: 5px;
+    margin: 10px;
+}
+.pie__logo--img {
+    text-align: right;
+}
+.Pie__blog--text {
+    text-align: left;
+}
+.pie__blog--latam {
+    text-align: right;
+}
+

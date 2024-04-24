@@ -1,1 +1,13 @@
-/* Layout styles here */ 
+header {
+    background: $color-white;
+    padding: 10px 20px;
+    width: 100%;
+    text-align: center;
+    @include flex-start;
+}
+  
+header img {
+    width: 20px;
+    height: auto;
+    padding: 10px;
+}

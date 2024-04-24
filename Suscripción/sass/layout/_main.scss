@@ -1,0 +1,23 @@
+main {
+    background-color: $color-box;
+    max-width: 800px;
+    margin-top: 30px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-end;
+    color: #fff;
+}/*# sourceMappingURL=main.css.map */
+.card {
+    background-color: $color-box;
+
+}
+.card__text--item {
+    width: 600px;
+    height: 150px;
+}
+.card__title {
+    color: $color-white ;
+    margin-left: 10px;
+}

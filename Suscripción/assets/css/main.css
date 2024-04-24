@@ -1,3 +1,4 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
 body {
   background: #f4f4f4;
   margin: 0;
@@ -12,72 +13,32 @@ body {
   font-family: Arial, sans-serif;
 }
 
-header {
-  background: #fff;
-  padding: 10px 20px;
-  width: 100%;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: start;
-}
-
-header img {
-  width: 50px;
-  height: auto;
-  padding: 10px;
-}
-
-main {
-  max-width: 400px;
-  margin-top: 20px;
-  padding: 20px;
-  background: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
 .btn {
-  width: 100%;
+  width: 20%;
   padding: 10px;
+  margin-right: 10px;
   margin-top: 5px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  background-color: #4CAF50;
+  background-color: #bcbdbc;
   color: #fff;
-  font-size: 16px;
-  cursor: pointer;
-}
-.btn:hover {
-  background-color: #45a049;
-}
-
-.btn-google {
-  background-color: #fff;
-  color: black;
-  text-align: center;
-}
-.btn-google:hover {
-  background-color: #fff;
-}
-
-.google-logo {
-  width: 20px;
-  vertical-align: middle;
-  margin-right: 8px;
-  background-color: #fff;
+  font-size: 18px;
 }
 
 .input-group {
   margin-bottom: 15px;
   margin-right: 20px;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: row;
 }
 
-input[type=text],
-input[type=password],
-input[type=email] {
-  width: 100%;
-  padding: 10px;
+input[type=text] {
+  width: 20px;
+  padding: 12px;
   margin-top: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
@@ -96,7 +57,7 @@ input[type=email] {
   display: flex;
   align-items: center;
   justify-content: center;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 .remember-forgot .forgot-password {
   margin-left: auto;
@@ -110,4 +71,56 @@ input[type=email] {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+main {
+  background-color: #4CAF50;
+  max-width: 800px;
+  margin-top: 30px;
+  padding: 8px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-end;
+  color: #fff;
+} 
+.card {
+  background-color: #4CAF50;
+}
+
+.card__text--item {
+  width: 600px;
+  height: 150px;
+}
+
+.card__title {
+  color: #fff;
+}
+
+footer {
+  padding: 10px 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.imagen__logo--blog {
+  width: 50px;
+  height: auto;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.pie__logo--img {
+  text-align: right;
+}
+
+.Pie__blog--text {
+  text-align: left;
+}
+
+.pie__blog--latam {
+  text-align: right;
 }/*# sourceMappingURL=main.css.map */
